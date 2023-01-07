@@ -22,11 +22,5 @@ section{
 
 .show{
     opacity: 1;
-    transition: all 5s; 
-}
-
-@media(prefers-reduced-motion: reduce){
-    .show{
-        transition: none;
-    }
+    transition: opacity 1s; 
 }
